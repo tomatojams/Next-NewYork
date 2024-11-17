@@ -9,8 +9,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
-  color: #ccc; /* 상속해주는 텍스트 색상*/
+  background-color: #ddd;
+  color: #333; /* 상속해주는 텍스트 색상*/
 }
 
 a {
