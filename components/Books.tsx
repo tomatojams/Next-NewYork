@@ -17,7 +17,12 @@ export default async function Books({ tomato }: { tomato: string }) {
           <div className={styles.movie} key={book.title}>
             <div className={styles.box}>
               <img className={styles.poster} src={book.book_image} alt={book.title} />
+
               <span>{book.title}</span>
+
+              <a href={book.buy_links[0].url} target={"_blank"}>
+                Buy Now &rarr;
+              </a>
             </div>
           </div>
         ))}
